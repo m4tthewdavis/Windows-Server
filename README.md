@@ -22,6 +22,8 @@ Domain `lab.test` (NetBIOS `LAB`). `.test` is reserved by RFC 2606, so it cannot
 
 See [how the pieces interact](docs/architecture-diagram.md) for diagrams of the services, permissions, provisioning flow and build dependencies.
 
+Unfamiliar acronym? See the [glossary](docs/glossary.md).
+
 ## Build order
 
 | # | Doc | Script (run where) |
