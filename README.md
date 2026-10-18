@@ -20,6 +20,8 @@ Every build step is documented in [`docs/`](docs/) and automated in [`scripts/`]
 
 Domain `lab.test` (NetBIOS `LAB`). `.test` is reserved by RFC 2606, so it cannot collide with real DNS.
 
+See [how the pieces interact](docs/architecture-diagram.md) for diagrams of the services, permissions, provisioning flow and build dependencies.
+
 ## Build order
 
 | # | Doc | Script (run where) |
