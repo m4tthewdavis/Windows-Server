@@ -39,6 +39,7 @@ Unfamiliar acronym? See the [glossary](docs/glossary.md).
 | 8 | [Backup & restore](docs/08-backup-restore.md) | `scripts/backup/01-Configure-Backup.ps1`, `02-Restore-Lab.ps1` |
 | 9 | [User provisioning automation](docs/09-user-provisioning.md) | `scripts/provisioning/New-LabUser.ps1`, `Disable-LabUser.ps1` |
 | 10 | [Validation & troubleshooting](docs/10-validation-troubleshooting.md) | `scripts/validation/Test-Lab.ps1` |
+| 11 | Live health dashboard (CPU, memory, disks, services) | `scripts/monitoring/Start-HealthDashboard.ps1` (any server) → `http://localhost:8080/` |
 
 Note the order inside step 3: `04-New-OUStructure.ps1` must run before the GPO, DHCP service-account and file-share steps,
 because they depend on the OUs and groups it creates. The numeric prefixes are per-folder; docs give the exact sequence.
